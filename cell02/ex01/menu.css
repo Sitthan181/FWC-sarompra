@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.bg {
+    position: fixed;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    background-image: url("https://www.club-sandwich.net/images/photobreves/sandwichs-invendus-trains-eurostar-transformes-biere-ia.webp");
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.selects {
+    display: flex;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.category {
+    flex: 1;
+}
+
+.item {
+    flex: 1;
+}
+
+select, .order-btn {
+    padding: 8px 14px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.order-btn {
+    background: white;
+    cursor: pointer;
+}

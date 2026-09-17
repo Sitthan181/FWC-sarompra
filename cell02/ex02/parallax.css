@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg1 {
+    background-image: url("https://media1.tenor.com/m/WERCgarSaZ0AAAAC/aemeath-aemeath-hi.gif");
+}
+
+.bg2 {
+    background-image: url("https://media1.tenor.com/m/nTnaQXZiKukAAAAd/aemeath-amy-seal.gif");
+}
+
+.black-block {
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.block-message {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+}
+
+.message {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}

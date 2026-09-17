@@ -11,13 +11,13 @@ function updateBalloon() {
 }
 
 balloon.addEventListener("click", function() {
+    size += 10;
     if (size > 420) {
         size = 200;
     } else {
-        size += 10;
         colorIndex = (colorIndex + 1) % colors.length;
     }
-    updateBalloon();
+    updateBalloon();// balloon.textContent =size + "px";
 });
 
 balloon.addEventListener("mouseleave", function() {
@@ -26,5 +26,5 @@ balloon.addEventListener("mouseleave", function() {
     }
 
     colorIndex = (colorIndex - 1 + colors.length) % colors.length;
-    updateBalloon();
+    updateBalloon();// balloon.textContent =size + "px";
 });
